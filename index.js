@@ -12,4 +12,7 @@ function handleClick(e) {
 /* Write your implementation of greet() */
 
 /* Write your implementation of displayMessage() */
-const 
+function greet(){
+const greeting = document.querySelector("greeting");
+greeting.innerHTML = timeString;
+}
