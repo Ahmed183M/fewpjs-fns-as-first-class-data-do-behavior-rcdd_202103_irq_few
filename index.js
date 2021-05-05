@@ -21,5 +21,5 @@ function greet(timeString){
 function displayMessage(message){
   console.log(message);
   const greeting = document.querySelector("#greeting");
-  greeting.innerHTML = message;
+  greeting.innerHTML = "TEST";
 }
