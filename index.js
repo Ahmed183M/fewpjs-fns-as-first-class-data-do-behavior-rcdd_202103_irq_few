@@ -10,9 +10,15 @@ function handleClick(e) {
 /* End Given Code, don't edit above here...*/
 
 /* Write your implementation of greet() */
+function greet(timeString){
+  const hour = timeString[0]+timeString[1];
+  if(parseInt(hour) < 12) return "Good Morning";
+  else if(hour >=12 && hour < 17) return "Good Afternoon";
+  else return "Good Evening";
+}
 
 /* Write your implementation of displayMessage() */
-function greet(timeString){
+function displayMessage(message){
 const greeting = document.querySelector("greeting");
-greeting.innerHTML = timeString;
+greeting.innerHTML = message;
 }
